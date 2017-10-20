@@ -20,6 +20,8 @@ end
 
 def printer(attendees)
   attendees.each do |name|
+    index = attendees.index(name)
+    room = index + 1
     puts "Hello, my name is #{name}."
     puts "Hello, #{name}! You'll be assigned to room #{room}!"
 end
