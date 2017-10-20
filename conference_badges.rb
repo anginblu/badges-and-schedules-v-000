@@ -12,4 +12,5 @@ end
 
 def assign_rooms(attendees)
 
+  "Hello, Steve! You'll be assigned to room 1!"
 end
