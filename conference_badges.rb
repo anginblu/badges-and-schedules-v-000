@@ -9,3 +9,5 @@ def batch_badge_creator(attendees)
     attendees(index) = "Hello, my name is #{name}."
   end
 end
+
+assign_rooms
